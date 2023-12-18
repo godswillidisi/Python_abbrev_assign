@@ -86,6 +86,7 @@ def getAbbreviationIndex(result, abbreviation):
 
     return abbreviation_indexes
 
+# to calculate the score of the abbreviation
 def score_abbreviation(score_card, abbrevs_dict):
     final_score = {}
     position_scores = {0: 0, -1: 5, 1: 1, 2: 2}
